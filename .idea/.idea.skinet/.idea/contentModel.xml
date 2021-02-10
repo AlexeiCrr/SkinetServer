@@ -29,6 +29,7 @@
         </e>
         <e p="Helpers" t="Include">
           <e p="MappingProfiles.cs" t="Include" />
+          <e p="Pagination.cs" t="Include" />
           <e p="ProductUrlResolver.cs" t="Include" />
         </e>
         <e p="Middleware" t="Include">
@@ -95,7 +96,9 @@
         <e p="Specifications" t="Include">
           <e p="BaseSpecification.cs" t="Include" />
           <e p="ISpecification.cs" t="Include" />
+          <e p="ProductSpecParams.cs" t="Include" />
           <e p="ProductsWithTypesAndBrandsSpecification.cs" t="Include" />
+          <e p="ProductWithFiltersForCountSpecification.cs" t="Include" />
         </e>
       </e>
       <e p="Infrastructure" t="IncludeRecursive">

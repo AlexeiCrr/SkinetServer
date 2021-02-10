@@ -22,7 +22,7 @@ namespace API.Extensions
             app.UseSwagger();
             app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Skinet API v1"));
 
-            return app;
+            return app; 
         }
     }
 }
